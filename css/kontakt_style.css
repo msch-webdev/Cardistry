@@ -1,0 +1,72 @@
+.kontakt-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+
+.kontakt-container h2{
+  font-size: 3em;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.kontakt-container form{
+  margin: 2em 2em 4em;
+}
+
+.vorname {
+  margin: 2em;
+}
+
+.nachname {
+  margin: 2em;
+}
+
+.email-kontakt {
+  margin: 2em;
+}
+
+.sonst {
+  margin: 2em;
+}
+
+.gender_box {
+  margin: 2em;
+}
+
+.gender_box p{
+  display: inline;
+}
+
+.subject {
+  margin: 2em;
+}
+
+.textarea-kontakt {
+  margin: 2em;
+}
+
+.textarea-kontakt label{
+  display: block;
+}
+
+
+.submit-btn {
+  display: block;
+  width: 100px;
+  height: 30px;
+  color: #3b3b3b;
+  background-color: #fff;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  margin: 5px 0; 
+}
+
+.submit-btn:hover{
+  color: #fff;
+  background-color: #3b3b3b;
+  margin: 5px 0; 
+}

@@ -1,0 +1,234 @@
+/* ###############- Seite Trick  -####################### */
+#tricks_overview_container {
+  width: 80%;
+  margin-bottom: 3em;
+}
+
+#tricks_overview_container h2 {
+  color: #3b3b3b;
+  font-size: 3em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#tricks_overview_container h3 {
+  margin-bottom: 1em;
+  color: #3b3b3b;
+  font-size: 2em;
+  word-wrap: break-word;
+}
+
+.overview_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.overview_container section {
+  padding: 2em;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.anfaenger ol,
+.fortgeschritten ol,
+.profi ol {
+  width: 100%;
+  margin-left: 2em;
+}
+
+.anfaenger ol li,
+.fortgeschritten ol li,
+.profi ol li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 13px;
+  width: 80%;
+}
+
+.anfaenger ol li a:hover,
+.fortgeschritten ol li a:hover,
+.profi ol li a:hover {
+  border-left: 1px solid #3b3b3b;
+}
+
+/* .anfaenger ol li::marker,
+.fortgeschritten ol li::marker,
+.profi ol li::marker {
+  list-style: upper-roman;
+  font-size: 1.3em;
+} */
+
+.anfaenger ol a,
+.fortgeschritten ol a,
+.profi ol a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #3b3b3b;
+  width: 50%;
+}
+
+.anfaenger form,
+.fortgeschritten form,
+.profi form {
+  display: inline-block;
+  width: 50%;
+}
+
+
+/* ###############- Seite Trick Beschreibung -####################### */
+
+.wrapper-description {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-description nav{
+  width: 100%;
+}
+
+.col-75 {
+  width: 75%;
+  height: auto;
+}
+
+
+
+.description-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em 2em 0;
+}
+
+.description-container h2 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 30px;
+}
+
+.description-container iframe {
+  margin: 2em 2em 0;
+}
+
+.description-container p {
+  margin: 20px 30px;
+}
+
+.tutorial-text {
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  margin: 2rem 1rem;
+  padding: 2rem;
+}
+
+.tutorial-text h3{
+  margin-bottom: 1em; 
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgs {
+  width: 19rem;
+  height: 13rem;
+  margin: 1rem;
+}
+
+/* ##############################- Admin Bereich -###################################################################### */
+.admin-bereich{
+  padding: 2em;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.admin-bereich h4{
+  margin-bottom: 1em; 
+}
+
+.admin-bereich input{
+  display: block;
+  width: 15em;
+  margin-top: 1em;
+  border: none;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.admin-bereich textarea {
+  margin-top: 1em;
+}
+
+.admin-bereich button{
+  display: block;
+  width: 100px;
+  height: 30px;
+  color: #3b3b3b;
+  background-color: #fff;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  margin: 5px 0; 
+}
+
+.admin-bereich button:hover{
+  color: #fff;
+  background-color: #3b3b3b;
+  margin: 5px 0; 
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.col-20 {
+  width: 20%;
+  height: auto;
+}
+
+.description-edit {
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.description-edit label {
+  display: block;
+}
+
+.description-image {
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.videoLink{
+  display: block;
+}
+
+.delete {
+  display: block;
+  color: #fff;
+  width: 200px;
+  background-color: #3b3b3b;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  margin: 15px 0; 
+}

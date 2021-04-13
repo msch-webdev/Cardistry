@@ -1,0 +1,91 @@
+
+#home_container {
+  width: 80%;
+  height: auto;
+}
+
+
+#home_container h2 {
+  text-align: center;
+  font-size: 3em;
+  color: #3b3b3b;
+}
+
+.vorschau_container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  margin: 5em;
+}
+
+.col-30 {
+  width: 30%;
+  height: auto;
+}
+
+.col-40 {
+  width: 40%;
+  height: auto;
+}
+
+
+.vorschau_kategorie {
+  border: 1px solid #3b3b3b;
+  border-radius: 10px;
+  box-shadow: 8px 5px 15px #000;
+}
+
+.vorschau_kategorie div {
+  width: 100%;
+  height: 100%;
+  margin: 2em;
+}
+
+.vorschau_kategorie img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  
+}
+
+
+
+.vorschau_article p {
+  font-size: 1em;
+  color: #3b3b3b;
+  margin: 3em;
+  text-align: justify;
+}
+
+.img-link-trick {
+  display: block;
+  background-image: url("../images/pic/tricks.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-link-magic {
+  display: block;
+  background-image: url("../images/pic/magic-tricks.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-link-decks {
+  display: block;
+  background-image: url("../images/pic/cards.png");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
