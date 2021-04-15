@@ -9,5 +9,7 @@ http://mschneider.bplaced.net/myProjects/cardistry/index.php
 Manche Features werden nur angezeigt wenn man eingeloggt ist.
 
 Login Test
+
 Username = user@test.de
+
 Passwort = 123456
