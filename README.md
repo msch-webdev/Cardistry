@@ -6,9 +6,15 @@ und setzt sich aus den Begriffen "Karte" und "Kunst" zusammen: "Cards" und "Arti
 
 http://mschneider.bplaced.net/myProjects/cardistry/index.php
 
-Manche Features werden nur angezeigt wenn man eingeloggt ist.
+Manche Features werden nur angezeigt wenn man eingeloggt ist z.B der bereich Tricks, dort wird der Bereich Profi Tricks nur angezeigt wenn mann als User angemeldet ist.
 
-Login Test
+Login Test Admin:
+
+Username = admin@test.de
+
+Passwort = 123456
+
+Login Test User:
 
 Username = user@test.de
 
